@@ -3,8 +3,12 @@ MAIN SIDEBAR MENU
 *********************************************************************************************************************************************************** -->
 <!--sidebar start-->
 <aside>
+
+
     <div id="sidebar"  class="nav-collapse ">
         <!-- sidebar menu start-->
+
+
         <ul class="sidebar-menu" id="nav-accordion">
 
             <p class="centered"><a href="profile.html"><img src="<?php echo esc_url (get_template_directory_uri()); ?> /assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
@@ -83,6 +87,17 @@ MAIN SIDEBAR MENU
 
         </ul>
         <!-- sidebar menu end-->
+        <?php wp_nav_menu(array(
+          'menu'              => 'primary',
+          'theme_location'    => 'primary',
+          'depth'             => 2,
+          'container'         => 'ul',
+          'container_id'    =>  'nav-accordion2',
+          'menu_class'        => 'sidebar-menu',
+        //  'items_wrap' => '<ul id="%1$s" class="%2$s sub-menu">%3$s</ul>',
+        'walker' => new BS3_Walker_Nav_Menu,
+      )); ?>
     </div>
+
 </aside>
 <!--sidebar end-->

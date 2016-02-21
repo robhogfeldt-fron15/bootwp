@@ -12,6 +12,18 @@ $(function() {
 //        cookie: 'dcjq-accordion-1',
         classExpand: 'dcjq-current-parent'
     });
+
+    $('#menu-primary').dcAccordion({
+        eventType: 'click',
+        autoClose: true,
+        saveState: true,
+        disableLink: true,
+        speed: 'slow',
+        showCount: false,
+        autoExpand: true,
+//        cookie: 'dcjq-accordion-1',
+        classExpand: 'dcjq-current-parent'
+    });
 });
 
 var Script = function () {
@@ -28,6 +40,7 @@ var Script = function () {
             $("#sidebar").scrollTo("+="+Math.abs(diff),500);
     });
 
+  
 
 
 //    sidebar toggle

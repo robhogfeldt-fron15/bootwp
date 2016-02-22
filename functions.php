@@ -38,6 +38,9 @@ function bootwp_scripts(){
     wp_enqueue_script( 'saprk-chart', get_template_directory_uri() . './assets/js/sparkline-chart.js', array('jquery'),"", true );
     wp_enqueue_script( 'zabuto', get_template_directory_uri() . './assets/js/zabuto_calendar.js', array('jquery'),"", true );
 
+    wp_enqueue_script( 'chartjs', get_template_directory_uri() . './assets/js/chartjs-conf.js', array('jquery'),"", true );
+    wp_enqueue_script( 'morris', get_template_directory_uri() . './assets/js/morris-conf.js', array('jquery'),"", true );
+
 
 }
 

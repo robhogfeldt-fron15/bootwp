@@ -10,26 +10,11 @@
     <!--footer end-->
 </section>
 
-  <!-- js placed at the end of the document so the pages load faster -->
- <!-- <script src="./assets/js/jquery.js"></script> -->
-  <!-- <script src="assets/js/jquery-1.8.3.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
-  <script src="assets/js/jquery.scrollTo.min.js"></script>
-  <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
-  <script src="assets/js/jquery.sparkline.js"></script> -->
 
-
-
-  <!-- <script src="assets/js/common-scripts.js"></script>
-
-  <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
-  <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
-
-
-  <script src="assets/js/sparkline-chart.js"></script>
-<script src="assets/js/zabuto_calendar.js"></script>  -->
 <?php wp_footer(); ?>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+
 <script type="text/javascript">
       jQuery(document).ready(function ($) {
       var unique_id = $.gritter.add({

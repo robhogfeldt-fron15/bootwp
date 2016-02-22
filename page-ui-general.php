@@ -1,7 +1,11 @@
 <? php ?>
 <!-- /**
-* Template Name: UI-General
+* Template Name: Page-Ui-General
 */ -->
+
+<?php get_header(); ?>
+
+<?php get_sidebar(); ?>
 <section id="main-content">
     <section class="wrapper">
     <div class="row mt">
@@ -157,3 +161,4 @@
 </section><!-- /MAIN CONTENT -->
 
 <!--main content end-->
+<?php get_footer(); ?>

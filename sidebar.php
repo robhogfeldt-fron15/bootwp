@@ -13,7 +13,7 @@ MAIN SIDEBAR MENU
 
             <p class="centered"><a href="profile.html"><img src="<?php echo esc_url (get_template_directory_uri()); ?> /assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
             <h5 class="centered">Marcel Newman</h5>
-
+            <h3>BS-meny</h3>
             <li class="mt">
                 <a class="active" href="index.html">
                     <i class="fa fa-dashboard"></i>
@@ -46,36 +46,6 @@ MAIN SIDEBAR MENU
             </li>
             <li class="sub-menu">
                 <a href="javascript:;" >
-                    <i class="fa fa-book"></i>
-                    <span>Extra Pages</span>
-                </a>
-                <ul class="sub">
-                    <li><a  href="blank.html">Blank Page</a></li>
-                    <li><a  href="login.html">Login</a></li>
-                    <li><a  href="lock_screen.html">Lock Screen</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href="javascript:;" >
-                    <i class="fa fa-tasks"></i>
-                    <span>Forms</span>
-                </a>
-                <ul class="sub">
-                    <li><a  href="form_component.html">Form Components</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href="javascript:;" >
-                    <i class="fa fa-th"></i>
-                    <span>Data Tables</span>
-                </a>
-                <ul class="sub">
-                    <li><a  href="basic_table.html">Basic Table</a></li>
-                    <li><a  href="responsive_table.html">Responsive Table</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href="javascript:;" >
                     <i class=" fa fa-bar-chart-o"></i>
                     <span>Charts</span>
                 </a>
@@ -86,6 +56,7 @@ MAIN SIDEBAR MENU
             </li>
 
         </ul>
+        <h3>WP-meny</h3>
         <!-- sidebar menu end-->
         <?php wp_nav_menu(array(
           'menu'              => 'primary',

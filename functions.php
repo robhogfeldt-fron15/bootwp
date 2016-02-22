@@ -17,10 +17,14 @@ add_action( 'after_setup_theme', 'bootwp_setup' );
 function bootwp_scripts(){
 
     /*add styles*/
+    /*Övrig CSS imorteras via style.css*/
+    /*Best practice verkade dock vara att köra alla här...*/
     wp_enqueue_style( 'style', get_template_directory_uri() . './style.css' );
 
 
-    // /*add scripts*/
+    /*add scripts*/
+    /*TODO Fixa conditional_script_loading() */
+    /*TODO Kolla vilka script som verkligen är beroende av jquery... */
     wp_enqueue_script( 'chart', get_template_directory_uri() . './assets/js/chart-master/Chart.js', array('jquery'), true );
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . './assets/js/bootstrap.min.js', array('jquery'),"", true );
     wp_enqueue_script( 'acc', get_template_directory_uri() . './assets/js/jquery.dcjqaccordion.2.7.js', array('jquery'),"", true );
@@ -45,6 +49,11 @@ function bootwp_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'bootwp_scripts');
+
+
+
+// IMPORTERA
+//
 class BS3_Walker_Nav_Menu extends Walker_Nav_Menu {
 	/**
 	 * Traverse elements to create list from elements.
@@ -117,7 +126,7 @@ class BS3_Walker_Nav_Menu extends Walker_Nav_Menu {
 add_filter('nav_menu_link_attributes', function($atts, $item, $args) {
 	if ( $args->has_children )
 	{
-		// $atts['data-toggle'] = 'dropdown';
+		// $atts['data-toggle'] = 'dropdown'; // Vill ej toogla menyn då den sköts via externt script
 		$atts['class'] = 'sub-menu dcjq-parent';
 	}
 

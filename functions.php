@@ -13,6 +13,7 @@ add_action( 'after_setup_theme', 'bootwp_setup' );
         } endif;
 
 
+add_filter('show_admin_bar', '__return_false');
 
 function bootwp_scripts(){
 
@@ -50,6 +51,23 @@ function bootwp_scripts(){
 
 add_action('wp_enqueue_scripts', 'bootwp_scripts');
 
+
+function create_widget($name, $id, $description){
+  register_sidebar(array(
+    'name' => __($name),
+    'id' => $id,
+    'description' => __($description),
+    // 'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    // 'after_widget' => "</li>n",
+    'before_title' => '<h2 class="widgettitle">',
+    // 'after_title' => "</h2>n"
+  ));
+
+
+}
+create_widget('Dashboard Top Left', 'dashboard-top-left', 'Display on the top left of dashboard');
+create_widget('Dashboard Top Center', 'dashboard-top-center', 'Display on the top center of dashboard');
+create_widget('Dashboard Top Right', 'dashboard-top-right', 'Display on the top right of dashboard');
 
 
 // IMPORTERA

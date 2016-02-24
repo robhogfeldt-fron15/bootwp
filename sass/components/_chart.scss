@@ -1,0 +1,88 @@
+/* MAIN CHART CONFIGURATION */
+.main-chart {
+  padding-top: 20px; }
+
+.border-head h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 700;
+  color: #989898; }
+
+.custom-bar-chart {
+  height: 290px;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+  border-bottom: 1px solid #c9cdd7; }
+
+.custom-bar-chart .bar {
+  height: 100%;
+  position: relative;
+  width: 6%;
+  margin: 0px 4%;
+  float: left;
+  text-align: center;
+  z-index: 10; }
+
+.custom-bar-chart .bar .title {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+  font-size: 11px; }
+
+.custom-bar-chart .bar .value {
+  position: absolute;
+  bottom: 0;
+  background: #ff865c;
+  color: #68dff0;
+  width: 100%;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.custom-bar-chart .bar .value:hover {
+  background: #2f2f2f;
+  color: #fff; }
+
+.y-axis {
+  color: #555555;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  font-size: 11px; }
+
+.y-axis li {
+  border-top: 1px dashed #dbdce0;
+  display: block;
+  height: 58px;
+  width: 100%; }
+
+.y-axis li:last-child {
+  border-top: none; }
+
+.y-axis li span {
+  display: block;
+  margin: -10px 0 0 -60px;
+  padding: 0 10px;
+  width: 40px; }
+
+/*Donut Chart Main Page Conf*/
+.donut-main {
+  display: block;
+  text-align: center; }
+
+.donut-main h4 {
+  font-weight: 700;
+  font-size: 16px; }

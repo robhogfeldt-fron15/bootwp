@@ -65,7 +65,7 @@ MAIN SIDEBAR MENU
           'container'         => 'ul',
           'container_id'    =>  'nav-accordion2',
           'menu_class'        => 'sidebar-menu',
-        //  'items_wrap' => '<ul id="%1$s" class="%2$s sub-menu">%3$s</ul>',
+          'items_wrap' => '<ul id="%1$s" class="%2$s sub">%3$s</ul>',
         'walker' => new BS3_Walker_Nav_Menu,
       )); ?>
     </div>

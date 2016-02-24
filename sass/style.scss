@@ -1,0 +1,75 @@
+/*
+Theme Name: bootwp
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the me team
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, responsive-layout
+Text Domain: cutombootwp
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@charset 'UTF-8';
+
+
+
+/* CSUTOM-STYLES    PUT IN VENDOR */
+@import url("http://fonts.googleapis.com/css?family=Ruda:400,700,900");
+@import url("assets/css/bootstrap.css");
+@import url("assets/js/gritter/css/jquery.gritter.css");
+@import url("assets/css/zabuto_calendar.css");
+@import url("assets/font-awesome/css/font-awesome.css");
+@import url("assets/lineicons/style.css");
+@import url("assets/css/style-responsive.css");
+/* CSUTOM-STYLES    PUT IN VENDOR */
+
+// Compass
+@import "compass/css3";
+
+// 1. Configuration and helpers
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
+
+// 2. Vendors
+@import
+  'vendor/normalize';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/sidebar-left',
+  'layout/sidebar-right';
+
+
+// 5. Components
+@import
+  'components/button',
+  'components/panel',
+  'components/box',
+  'components/chart',
+  'components/sidebar_toggle';
+
+
+// 6. Page-specific styles
+@import
+  'pages/home',
+  'pages/dashboard';
+
+// 7. Themes
+@import
+  'themes/default';

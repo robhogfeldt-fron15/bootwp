@@ -1,4 +1,4 @@
-<? php ?>
+
 <!-- /**
 * Template Name: Page-Ui-General
 */ -->

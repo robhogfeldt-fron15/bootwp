@@ -28,8 +28,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url("assets/css/style-responsive.css");
 /* CSUTOM-STYLES    PUT IN VENDOR */
 
-// Compass
-@import "compass/css3";
 
 // 1. Configuration and helpers
 @import
@@ -62,7 +60,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
   'components/panel',
   'components/box',
   'components/chart',
-  'components/sidebar_toggle';
+  'components/sidebar_toggle',
+  'components/showcase',
+  'components/badge';
 
 
 // 6. Page-specific styles

@@ -28,7 +28,7 @@
 
 /*LEFT NAVIGATION ICON*/
 .dcjq-icon {
-  @include border-radius(3px);
+  border-radius: 3px;
   height: 17px;
   width: 17px;
   display: inline-block;
@@ -39,7 +39,7 @@
 }
 
 .active .dcjq-icon {
-  @include border-radius(3px);
+  border-radius: 3px;
   background: url("../img/nav-expand.png") no-repeat bottom;
 
 }
@@ -79,7 +79,8 @@ ul.sidebar-menu li {
       -webkit-border-radius: 0 0 4px 4px;
     }
     a {
-      @include transition-duration(2s);
+      -webkit-transition: all 5s ease;
+      transition: all 5s ease;
       @extend .sidebar-base-font;
       padding: 6px 0;
       line-height: 35px;
@@ -90,7 +91,8 @@ ul.sidebar-menu li {
       }
     }
     &.active a {
-      @include transition-duration(2s);
+      -webkit-transition: all 5s ease;
+      transition: all 5s ease;
       color: #68dff0;
       display: block;
     }
@@ -109,7 +111,8 @@ ul.sidebar-menu li {
     padding: 15px 0 15px 10px;
     outline: none;
     &.active, &:hover, &:focus {
-      @include transition-duration(2s);
+      -webkit-transition: all 5s ease;
+      transition: all 5s ease;
       background: #68dff0;
       color: #fff;
       display: block;

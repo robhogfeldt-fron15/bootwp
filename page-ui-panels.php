@@ -1,4 +1,4 @@
-<? php ?>
+
 <!-- /**
 * Template Name: Page-Ui-Panels
 */ -->
@@ -28,7 +28,7 @@
               <div class="white-header">
                 <h5>TOP USER</h5>
               </div>
-              <p><img src="<?php echo esc_url (get_template_directory_uri()); ?> /assets/img/ui-zac.jpg" class="img-circle" width="50"></p>
+              <p><img src="<?php echo esc_url (get_template_directory_uri());?>/assets/img/ui-zac.jpg" class="img-circle" width="50"></p>
               <p><b>Zac Snider</b></p>
                 <div class="row">
                   <div class="col-md-6">
@@ -91,7 +91,7 @@
             <div class="content-panel pn">
               <div id="profile-02">
                 <div class="user">
-                  <img src="<?php echo esc_url (get_template_directory_uri()); ?> /assets/img/friends/fr-06.jpg" class="img-circle" width="80">
+                  <img src="<?php echo esc_url (get_template_directory_uri());?>/assets/img/friends/fr-06.jpg" class="img-circle" width="80">
                   <h4>DJ SHERMAN</h4>
                 </div>
               </div>
@@ -110,7 +110,7 @@
           <div class="col-lg-4 col-md-4 col-sm-4 mb">
             <div class="product-panel-2 pn">
               <div class="badge badge-hot">HOT</div>
-              <img src="<?php echo esc_url (get_template_directory_uri()); ?> /assets/img/product.jpg" width="200" alt="">
+              <img src="<?php echo esc_url (get_template_directory_uri());?>/assets/img/product.jpg" width="200" alt="">
               <h5 class="mt">Flat Pack Heritage</h5>
               <h6>TOTAL SALES: 1388</h6>
               <button class="btn btn-small btn-theme04">FULL REPORT</button>
@@ -317,7 +317,7 @@
                 </div>
               </div><!-- /weather-2 header -->
               <div class="row centered">
-                <img src="<?php echo esc_url (get_template_directory_uri()); ?> /assets/img/ny.jpg" class="img-circle" width="120">
+                <img src="<?php echo esc_url (get_template_directory_uri());?>/assets/img/ny.jpg" class="img-circle" width="120">
               </div>
               <div class="row data">
                 <div class="col-sm-6 col-xs-6 goleft">

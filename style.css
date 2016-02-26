@@ -29,23 +29,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
  *    without disabling user zoom.
  */
 @import url("http://fonts.googleapis.com/css?family=Ruda:400,700,900");
-/* line 9, sass/vendor/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove default margin.
  */
-/* line 19, sass/vendor/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -55,7 +51,6 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 33, sass/vendor/_normalize.scss */
 article,
 aside,
 details,
@@ -69,14 +64,12 @@ menu,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, sass/vendor/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -84,181 +77,142 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, sass/vendor/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 77, sass/vendor/_normalize.scss */
 [hidden],
 template {
-  display: none;
-}
+  display: none; }
 
 /* Links
    ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, sass/vendor/_normalize.scss */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 98, sass/vendor/_normalize.scss */
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
 
 /* Text-level semantics
    ========================================================================== */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 110, sass/vendor/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, sass/vendor/_normalize.scss */
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 127, sass/vendor/_normalize.scss */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 136, sass/vendor/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 145, sass/vendor/_normalize.scss */
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 154, sass/vendor/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, sass/vendor/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-/* line 170, sass/vendor/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
-/* line 174, sass/vendor/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* Embedded content
    ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 185, sass/vendor/_normalize.scss */
 img {
-  border: 0;
-}
+  border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 193, sass/vendor/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* Grouping content
    ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 204, sass/vendor/_normalize.scss */
 figure {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 212, sass/vendor/_normalize.scss */
 hr {
   box-sizing: content-box;
-  height: 0;
-}
+  height: 0; }
 
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, sass/vendor/_normalize.scss */
 pre {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, sass/vendor/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 /* Forms
    ========================================================================== */
@@ -272,7 +226,6 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, sass/vendor/_normalize.scss */
 button,
 input,
 optgroup,
@@ -283,16 +236,13 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, sass/vendor/_normalize.scss */
 button {
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -300,11 +250,9 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, sass/vendor/_normalize.scss */
 button,
 select {
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -313,7 +261,6 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, sass/vendor/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -321,36 +268,29 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */
-}
+  /* 3 */ }
 
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, sass/vendor/_normalize.scss */
 button[disabled],
 html input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, sass/vendor/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, sass/vendor/_normalize.scss */
 input {
-  line-height: normal;
-}
+  line-height: normal; }
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -359,150 +299,117 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, sass/vendor/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, sass/vendor/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 356, sass/vendor/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   box-sizing: content-box;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, sass/vendor/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 376, sass/vendor/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 387, sass/vendor/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 396, sass/vendor/_normalize.scss */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 405, sass/vendor/_normalize.scss */
 optgroup {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /* Tables
    ========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
-/* line 416, sass/vendor/_normalize.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 421, sass/vendor/_normalize.scss */
 td,
 th {
-  padding: 0;
-}
+  padding: 0; }
 
 /**
  * Set up a decent box model on the root element
  */
-/* line 8, sass/base/_base.scss */
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 13, sass/base/_base.scss */
 body {
   color: #797979;
   background: #f2f2f2;
   font-family: 'Ruda', sans-serif;
   padding: 0px !important;
   margin: 0px !important;
-  font-size: 13px;
-}
+  font-size: 13px; }
 
-/* line 21, sass/base/_base.scss */
 #container {
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
-/* line 26, sass/base/_base.scss */
 .header, .footer {
   min-height: 60px;
-  padding: 0 15px;
-}
+  padding: 0 15px; }
 
-/* line 31, sass/base/_base.scss */
 .header {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 1002;
-}
+  z-index: 1002; }
 
-/* line 38, sass/base/_base.scss */
 .black-bg {
   background: #ffd777;
-  border-bottom: 1px solid #c9aa5f;
-}
+  border-bottom: 1px solid #c9aa5f; }
 
-/* line 43, sass/base/_base.scss */
 .wrapper {
   display: inline-block;
   margin-top: 60px;
@@ -510,8 +417,7 @@ body {
   padding-right: 15px;
   padding-bottom: 15px;
   padding-top: 0px;
-  width: 100%;
-}
+  width: 100%; }
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
@@ -526,12 +432,10 @@ body {
 /**
  * Clear inner floats
  */
-/* line 8, sass/base/_helpers.scss */
 .clearfix::after {
   clear: both;
   content: '';
-  display: table;
-}
+  display: table; }
 
 /**
  * Main content containers
@@ -539,7 +443,6 @@ body {
  * 2. Center it in the viewport
  * 3. Leave some space on the edges, especially valuable on small screens
  */
-/* line 20, sass/base/_helpers.scss */
 .container {
   max-width: 1180px;
   /* 1 */
@@ -552,29 +455,25 @@ body {
   padding-right: 20px;
   /* 3 */
   width: 100%;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;
  *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
-/* line 34, sass/base/_helpers.scss */
 .hide-text {
   overflow: hidden;
   padding: 0;
   /* 1 */
   text-indent: 101%;
-  white-space: nowrap;
-}
+  white-space: nowrap; }
 
 /**
  * Hide element while making it readable for screen readers
  * Shamelessly borrowed from HTML5Boilerplate:
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
-/* line 46, sass/base/_helpers.scss */
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -583,70 +482,46 @@ body {
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px;
-}
+  width: 1px; }
 
 /*Helpers*/
-/* line 60, sass/base/_helpers.scss */
 .centered {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 63, sass/base/_helpers.scss */
 .goleft {
-  text-align: left;
-}
+  text-align: left; }
 
-/* line 66, sass/base/_helpers.scss */
 .goright {
-  text-align: right;
-}
+  text-align: right; }
 
-/* line 69, sass/base/_helpers.scss */
 .mt {
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
-/* line 72, sass/base/_helpers.scss */
 .mb {
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
-/* line 75, sass/base/_helpers.scss */
 .ml {
-  margin-left: 5px;
-}
+  margin-left: 5px; }
 
-/* line 78, sass/base/_helpers.scss */
 .no-padding {
-  padding: 0 !important;
-}
+  padding: 0 !important; }
 
-/* line 81, sass/base/_helpers.scss */
 .no-margin {
-  margin: 0 !important;
-}
+  margin: 0 !important; }
 
-/* line 4, sass/layout/_header.scss */
 #top_menu .nav > li, ul.top-menu > li {
-  float: left;
-}
+  float: left; }
 
-/* line 8, sass/layout/_header.scss */
 .notify-row {
   float: left;
   margin-top: 15px;
-  margin-left: 92px;
-}
-/* line 12, sass/layout/_header.scss */
-.notify-row .notification span.label {
-  display: inline-block;
-  height: 18px;
-  width: 20px;
-  padding: 5px;
-}
+  margin-left: 92px; }
+  .notify-row .notification span.label {
+    display: inline-block;
+    height: 18px;
+    width: 20px;
+    padding: 5px; }
 
-/* line 20, sass/layout/_header.scss */
 ul.top-menu > li > a {
   color: #666666;
   font-size: 16px;
@@ -654,28 +529,22 @@ ul.top-menu > li > a {
   -webkit-border-radius: 4px;
   border: 1px solid #666666 !important;
   padding: 2px 6px;
-  margin-right: 15px;
-}
-/* line 28, sass/layout/_header.scss */
-ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
-  border: 1px solid #b6b6b6 !important;
-  background-color: transparent !important;
-  border-color: #b6b6b6 !important;
-  text-decoration: none;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  color: #b6b6b6 !important;
-}
+  margin-right: 15px; }
+  ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
+    border: 1px solid #b6b6b6 !important;
+    background-color: transparent !important;
+    border-color: #b6b6b6 !important;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #b6b6b6 !important; }
 
-/* line 39, sass/layout/_header.scss */
 .notify-row .badge {
   position: absolute;
   right: -10px;
   top: -10px;
-  z-index: 100;
-}
+  z-index: 100; }
 
-/* line 47, sass/layout/_header.scss */
 .dropdown-menu.extended {
   max-width: 300px !important;
   min-width: 160px !important;
@@ -685,216 +554,155 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.176) !important;
   border: none !important;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-}
-/* line 58, sass/layout/_header.scss */
-.dropdown-menu.extended li p {
-  background-color: #F1F2F7;
-  color: #666666;
-  margin: 0;
-  padding: 10px;
-  border-radius: 4px 4px 0px 0px;
-  -webkit-border-radius: 4px 4px 0px 0px;
-}
-/* line 65, sass/layout/_header.scss */
-.dropdown-menu.extended li p.green {
-  background-color: #68dff0;
-  color: #fff;
-}
-/* line 69, sass/layout/_header.scss */
-.dropdown-menu.extended li p.yellow {
-  background-color: #fcb322;
-  color: #fff;
-}
-/* line 74, sass/layout/_header.scss */
-.dropdown-menu.extended li a {
-  border-bottom: 1px solid #EBEBEB !important;
-  font-size: 12px;
-  list-style: none;
-  padding: 15px 10px !important;
-  width: 100%;
-  display: inline-block;
-}
-/* line 81, sass/layout/_header.scss */
-.dropdown-menu.extended li a:hover {
-  background-color: #F7F8F9 !important;
-  color: #2E2E2E;
-}
-/* line 89, sass/layout/_header.scss */
+  -webkit-border-radius: 4px; }
+  .dropdown-menu.extended li p {
+    background-color: #F1F2F7;
+    color: #666666;
+    margin: 0;
+    padding: 10px;
+    border-radius: 4px 4px 0px 0px;
+    -webkit-border-radius: 4px 4px 0px 0px; }
+    .dropdown-menu.extended li p.green {
+      background-color: #68dff0;
+      color: #fff; }
+    .dropdown-menu.extended li p.yellow {
+      background-color: #fcb322;
+      color: #fff; }
+  .dropdown-menu.extended li a {
+    border-bottom: 1px solid #EBEBEB !important;
+    font-size: 12px;
+    list-style: none;
+    padding: 15px 10px !important;
+    width: 100%;
+    display: inline-block; }
+    .dropdown-menu.extended li a:hover {
+      background-color: #F7F8F9 !important;
+      color: #2E2E2E; }
+
 .dropdown-menu.tasks-bar .task-info .desc {
   font-size: 13px;
-  font-weight: normal;
-}
-/* line 93, sass/layout/_header.scss */
+  font-weight: normal; }
+
 .dropdown-menu.tasks-bar .task-info .percent {
   display: inline-block;
   float: right;
   font-size: 13px;
   font-weight: 600;
   padding-left: 10px;
-  margin-top: -4px;
-}
-/* line 102, sass/layout/_header.scss */
+  margin-top: -4px; }
+
 .dropdown-menu.extended .progress {
   margin-bottom: 0 !important;
-  height: 10px;
-}
-/* line 107, sass/layout/_header.scss */
+  height: 10px; }
+
 .dropdown-menu.inbox li a .photo img {
   border-radius: 2px 2px 2px 2px;
   float: left;
   height: 40px;
   margin-right: 4px;
-  width: 40px;
-}
-/* line 114, sass/layout/_header.scss */
+  width: 40px; }
+
 .dropdown-menu.inbox li a .subject {
-  display: block;
-}
-/* line 116, sass/layout/_header.scss */
-.dropdown-menu.inbox li a .subject .from {
-  font-size: 12px;
-  font-weight: 600;
-}
-/* line 120, sass/layout/_header.scss */
-.dropdown-menu.inbox li a .subject .time {
-  font-size: 11px;
-  font-style: italic;
-  font-weight: bold;
-  position: absolute;
-  right: 5px;
-}
-/* line 128, sass/layout/_header.scss */
+  display: block; }
+  .dropdown-menu.inbox li a .subject .from {
+    font-size: 12px;
+    font-weight: 600; }
+  .dropdown-menu.inbox li a .subject .time {
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    right: 5px; }
+
 .dropdown-menu.inbox li a .message {
   display: block !important;
-  font-size: 11px;
-}
+  font-size: 11px; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* Safari and Chrome */
-  /* line 137, sass/layout/_header.scss */
   .dropdown-menu.extended {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176) !important;
-  }
-}
-/* line 142, sass/layout/_header.scss */
-.top-nav {
-  margin-top: 7px;
-}
-/* line 144, sass/layout/_header.scss */
-.top-nav ul.top-menu > li .dropdown-menu.logout {
-  width: 268px !important;
-}
-/* line 147, sass/layout/_header.scss */
-.top-nav li.dropdown .dropdown-menu {
-  float: right;
-  right: 0;
-  left: auto;
-}
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176) !important; } }
 
-/* line 154, sass/layout/_header.scss */
+.top-nav {
+  margin-top: 7px; }
+  .top-nav ul.top-menu > li .dropdown-menu.logout {
+    width: 268px !important; }
+  .top-nav li.dropdown .dropdown-menu {
+    float: right;
+    right: 0;
+    left: auto; }
+
 .dropdown-menu.extended.logout > li {
   float: left;
   text-align: center;
-  width: 33.3%;
-}
-/* line 158, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li:last-child {
-  float: left;
-  text-align: center;
-  width: 100%;
-  background: #a9d96c;
-  border-radius: 0 0 3px 3px;
-}
-/* line 164, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li:last-child > a {
-  color: #fff;
-  border-bottom: none !important;
-  text-transform: uppercase;
-}
-/* line 168, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li:last-child > a:hover {
-  color: #fff;
-  border-bottom: none !important;
-  text-transform: uppercase;
-}
-/* line 172, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li:last-child > a:hover > i {
-  color: #fff;
-}
-/* line 178, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li > a {
-  color: #a4abbb;
-  border-bottom: none !important;
-}
+  width: 33.3%; }
+  .dropdown-menu.extended.logout > li:last-child {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background: #a9d96c;
+    border-radius: 0 0 3px 3px; }
+    .dropdown-menu.extended.logout > li:last-child > a {
+      color: #fff;
+      border-bottom: none !important;
+      text-transform: uppercase; }
+      .dropdown-menu.extended.logout > li:last-child > a:hover {
+        color: #fff;
+        border-bottom: none !important;
+        text-transform: uppercase; }
+        .dropdown-menu.extended.logout > li:last-child > a:hover > i {
+          color: #fff; }
+  .dropdown-menu.extended.logout > li > a {
+    color: #a4abbb;
+    border-bottom: none !important; }
 
-/* line 184, sass/layout/_header.scss */
 .full-width .dropdown-menu.extended.logout > li > a:hover {
   background: none !important;
-  color: #50c8ea !important;
-}
+  color: #50c8ea !important; }
 
-/* line 190, sass/layout/_header.scss */
 .dropdown-menu.extended.logout > li > a:hover {
-  background: none !important;
-}
-/* line 192, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li > a:hover i {
-  color: #50c8ea;
-}
-/* line 196, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li > a i {
-  font-size: 17px;
-}
-/* line 199, sass/layout/_header.scss */
-.dropdown-menu.extended.logout > li > a > i {
-  display: block;
-}
+  background: none !important; }
+  .dropdown-menu.extended.logout > li > a:hover i {
+    color: #50c8ea; }
 
-/* line 205, sass/layout/_header.scss */
+.dropdown-menu.extended.logout > li > a i {
+  font-size: 17px; }
+
+.dropdown-menu.extended.logout > li > a > i {
+  display: block; }
+
 .top-nav ul.top-menu > li {
-  margin-left: 10px;
-}
-/* line 206, sass/layout/_header.scss */
-.top-nav ul.top-menu > li > a {
-  border: 1px solid #eeeeee;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  padding: 6px;
-  background: none;
-  margin-right: 0;
-}
-/* line 213, sass/layout/_header.scss */
-.top-nav ul.top-menu > li > a:hover, .top-nav ul.top-menu > li > a:focus {
-  border: 1px solid #F1F2F7;
-  background: #F1F2F7;
-}
-/* line 220, sass/layout/_header.scss */
+  margin-left: 10px; }
+  .top-nav ul.top-menu > li > a {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 6px;
+    background: none;
+    margin-right: 0; }
+    .top-nav ul.top-menu > li > a:hover, .top-nav ul.top-menu > li > a:focus {
+      border: 1px solid #F1F2F7;
+      background: #F1F2F7; }
+
 .top-nav .dropdown-menu.extended.logout {
-  top: 50px;
-}
-/* line 223, sass/layout/_header.scss */
+  top: 50px; }
+
 .top-nav .nav .caret {
   border-bottom-color: #A4AABA;
-  border-top-color: #A4AABA;
-}
-/* line 227, sass/layout/_header.scss */
+  border-top-color: #A4AABA; }
+
 .top-nav ul.top-menu > li > a:hover .caret {
   border-bottom-color: #000;
-  border-top-color: #000;
-}
+  border-top-color: #000; }
 
-/* line 233, sass/layout/_header.scss */
 .log-arrow-up {
   background: url("../img/arrow-up.png") no-repeat;
   width: 20px;
   height: 11px;
   position: absolute;
   right: 20px;
-  top: -10px;
-}
+  top: -10px; }
 
-/* line 242, sass/layout/_header.scss */
 .notify-arrow {
   border-style: solid;
   border-width: 0 9px 9px;
@@ -904,90 +712,65 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   position: absolute;
   left: 7px;
   top: -18px;
+  -webkit-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
   width: 0;
   z-index: 10;
   margin-top: 10px;
-  opacity: 1;
-}
+  opacity: 1; }
 
-/* line 258, sass/layout/_header.scss */
 .notify-arrow-yellow {
   border-color: transparent transparent #FCB322;
   border-bottom-color: #FCB322 !important;
-  border-top-color: #FCB322 !important;
-}
+  border-top-color: #FCB322 !important; }
 
-/* line 264, sass/layout/_header.scss */
 .notify-arrow-green {
   border-color: transparent transparent #68dff0;
   border-bottom-color: #68dff0 !important;
-  border-top-color: #68dff0 !important;
-}
+  border-top-color: #68dff0 !important; }
 
-/* line 270, sass/layout/_header.scss */
 .black-bg {
   background: #ffd777;
-  border-bottom: 1px solid #c9aa5f;
-}
+  border-bottom: 1px solid #c9aa5f; }
 
-/* line 275, sass/layout/_header.scss */
 a.logo {
   font-size: 20px;
   font-family: 'Ruda', sans-serif;
   color: #ffffff;
   float: left;
   margin-top: 15px;
-  text-transform: uppercase;
-}
-/* line 282, sass/layout/_header.scss */
-a.logo b {
-  font-weight: 900;
-}
-/* line 285, sass/layout/_header.scss */
-a.logo:hover, a.logo:focus {
-  text-decoration: none;
-  outline: none;
-}
-/* line 289, sass/layout/_header.scss */
-a.logo span {
-  color: #68dff0;
-}
+  text-transform: uppercase; }
+  a.logo b {
+    font-weight: 900; }
+  a.logo:hover, a.logo:focus {
+    text-decoration: none;
+    outline: none; }
+  a.logo span {
+    color: #68dff0; }
 
 /*--sidebar toggle---*/
-/* line 296, sass/layout/_header.scss */
 .sidebar-toggle-box {
   float: left;
   padding-right: 15px;
-  margin-top: 20px;
-}
-/* line 300, sass/layout/_header.scss */
-.sidebar-toggle-box .fa-bars {
-  cursor: pointer;
-  display: inline-block;
-  font-size: 20px;
-}
+  margin-top: 20px; }
+  .sidebar-toggle-box .fa-bars {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px; }
 
-/* line 308, sass/layout/_header.scss */
 .sidebar-closed > #sidebar > ul {
-  display: none;
-}
-/* line 311, sass/layout/_header.scss */
+  display: none; }
+
 .sidebar-closed #main-content {
-  margin-left: 0px;
-}
-/* line 314, sass/layout/_header.scss */
+  margin-left: 0px; }
+
 .sidebar-closed #sidebar {
-  margin-left: -180px;
-}
+  margin-left: -180px; }
 
 /*Exclusive Theme Colors Configuration*/
-/* line 321, sass/layout/_header.scss */
 .label-theme, .bg-theme {
-  background-color: #68dff0;
-}
+  background-color: #68dff0; }
 
-/* line 325, sass/layout/_header.scss */
 ul.top-menu > li > .logout {
   color: #f2f2f2;
   font-size: 12px;
@@ -997,47 +780,31 @@ ul.top-menu > li > .logout {
   padding: 5px 15px;
   margin-right: 15px;
   background: #68dff0;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
-/* line 1, sass/layout/_sidebar-left.scss */
 .sidebar-base-font, ul.sidebar-menu li ul.sub li a, ul.sidebar-menu li a {
   font-size: 12px;
-  color: #aeb2b7;
-}
+  color: #aeb2b7; }
 
 /*sidebar navigation*/
-/* line 7, sass/layout/_sidebar-left.scss */
 #sidebar {
   width: 210px;
   height: 100%;
   position: fixed;
-  background: #424a5d;
-}
-/* line 12, sass/layout/_sidebar-left.scss */
-#sidebar h5 {
-  color: #f2f2f2;
-  font-weight: 700;
-  font-family: 'Ruda', sans-serif;
-}
-/* line 18, sass/layout/_sidebar-left.scss */
-#sidebar ul li {
-  position: relative;
-}
-/* line 21, sass/layout/_sidebar-left.scss */
-#sidebar .sub-menu > .sub li {
-  padding-left: 32px;
-}
-/* line 23, sass/layout/_sidebar-left.scss */
-#sidebar .sub-menu > .sub li:last-child {
-  padding-bottom: 10px;
-}
+  background: #424a5d; }
+  #sidebar h5 {
+    color: #f2f2f2;
+    font-weight: 700;
+    font-family: 'Ruda', sans-serif; }
+  #sidebar ul li {
+    position: relative; }
+  #sidebar .sub-menu > .sub li {
+    padding-left: 32px; }
+    #sidebar .sub-menu > .sub li:last-child {
+      padding-bottom: 10px; }
 
 /*LEFT NAVIGATION ICON*/
-/* line 30, sass/layout/_sidebar-left.scss */
 .dcjq-icon {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   height: 17px;
   width: 17px;
@@ -1045,427 +812,284 @@ ul.top-menu > li > .logout {
   background: url("../img/nav-expand.png") no-repeat top;
   position: absolute;
   right: 10px;
-  top: 15px;
-}
+  top: 15px; }
 
-/* line 41, sass/layout/_sidebar-left.scss */
 .active .dcjq-icon {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
   border-radius: 3px;
-  background: url("../img/nav-expand.png") no-repeat bottom;
-}
+  background: url("../img/nav-expand.png") no-repeat bottom; }
 
 /*---*/
-/* line 49, sass/layout/_sidebar-left.scss */
 .nav-collapse.collapse {
-  display: inline;
-}
+  display: inline; }
 
-/* line 53, sass/layout/_sidebar-left.scss */
 ul.sidebar-menu {
   margin: -2px 0 0;
   padding: 0;
-  margin-top: 75px;
-}
-/* line 56, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li ul.sub {
-  margin: -2px 0 0;
-  padding: 0;
-}
+  margin-top: 75px; }
+  ul.sidebar-menu li ul.sub {
+    margin: -2px 0 0;
+    padding: 0; }
 
-/* line 64, sass/layout/_sidebar-left.scss */
 #sidebar > ul > li > ul.sub {
-  display: none;
-}
-/* line 67, sass/layout/_sidebar-left.scss */
+  display: none; }
+
 #sidebar > ul > li.active > ul.sub, #sidebar > ul > li > ul.sub > li > a {
-  display: block;
-}
+  display: block; }
 
-/* line 72, sass/layout/_sidebar-left.scss */
 ul.sidebar-menu li {
-  margin: 10px 5px 10px;
-}
-/* line 74, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li ul.sub li {
-  margin: 0px 0px 0px;
-}
-/* line 77, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li ul.sub li:last-child {
-  border-radius: 0 0 4px 4px;
-  -webkit-border-radius: 0 0 4px 4px;
-}
-/* line 81, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li ul.sub li a {
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-  padding: 6px 0;
-  line-height: 35px;
-  height: 35px;
-}
-/* line 87, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li ul.sub li a:hover {
-  color: white;
-  background: transparent;
-}
-/* line 92, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li ul.sub li.active a {
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-  color: #68dff0;
-  display: block;
-}
-/* line 99, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li.sub-menu {
-  line-height: 15px;
-}
-/* line 102, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li a {
-  text-decoration: none;
-  display: block;
-  padding: 15px 0 15px 10px;
-  outline: none;
-}
-/* line 103, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li a span {
-  display: inline-block;
-}
-/* line 111, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-  -moz-transition-duration: 2s;
-  -o-transition-duration: 2s;
-  -webkit-transition-duration: 2s;
-  transition-duration: 2s;
-  background: #68dff0;
-  color: #fff;
-  display: block;
-}
-/* line 117, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li a i {
-  font-size: 15px;
-  padding-right: 6px;
-}
-/* line 121, sass/layout/_sidebar-left.scss */
-ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i, ul.sidebar-menu li a.active i {
-  color: #fff;
-}
+  margin: 10px 5px 10px; }
+  ul.sidebar-menu li ul.sub li {
+    margin: 0px 0px 0px; }
+    ul.sidebar-menu li ul.sub li:last-child {
+      border-radius: 0 0 4px 4px;
+      -webkit-border-radius: 0 0 4px 4px; }
+    ul.sidebar-menu li ul.sub li a {
+      -webkit-transition: all 5s ease;
+      transition: all 5s ease;
+      padding: 6px 0;
+      line-height: 35px;
+      height: 35px; }
+      ul.sidebar-menu li ul.sub li a:hover {
+        color: white;
+        background: transparent; }
+    ul.sidebar-menu li ul.sub li.active a {
+      -webkit-transition: all 5s ease;
+      transition: all 5s ease;
+      color: #68dff0;
+      display: block; }
+  ul.sidebar-menu li.sub-menu {
+    line-height: 15px; }
+  ul.sidebar-menu li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 10px;
+    outline: none; }
+    ul.sidebar-menu li a span {
+      display: inline-block; }
+    ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+      -webkit-transition: all 5s ease;
+      transition: all 5s ease;
+      background: #68dff0;
+      color: #fff;
+      display: block; }
+    ul.sidebar-menu li a i {
+      font-size: 15px;
+      padding-right: 6px; }
+    ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i, ul.sidebar-menu li a.active i {
+      color: #fff; }
 
-/* line 1, sass/layout/_sidebar-right.scss */
 .ds {
   background: #ffffff;
-  padding-top: 20px;
-}
-/* line 4, sass/layout/_sidebar-right.scss */
-.ds h4 {
-  font-size: 14px;
-  font-weight: 700;
-}
-/* line 8, sass/layout/_sidebar-right.scss */
-.ds h3 {
-  color: #ffffff;
-  font-size: 16px;
-  padding: 0 10px;
-  line-height: 60px;
-  height: 60px;
-  margin: 0;
-  background: #ff865c;
-  text-align: center;
-}
-/* line 18, sass/layout/_sidebar-right.scss */
-.ds i {
-  font-size: 12px;
-  line-height: 16px;
-}
-/* line 22, sass/layout/_sidebar-right.scss */
-.ds .desc {
-  border-bottom: 1px solid #eaeaea;
-  display: inline-block;
-  padding: 15px 0;
-  width: 100%;
-}
-/* line 27, sass/layout/_sidebar-right.scss */
-.ds .desc:hover {
-  background: #f2f2f2;
-}
-/* line 31, sass/layout/_sidebar-right.scss */
-.ds .thumb {
-  width: 30px;
-  margin: 0 10px 0 20px;
-  display: block;
-  float: left;
-}
-/* line 37, sass/layout/_sidebar-right.scss */
-.ds .details {
-  width: 170px;
-  float: left;
-}
-/* line 41, sass/layout/_sidebar-right.scss */
-.ds > .desc p {
-  font-size: 11px;
-}
-/* line 44, sass/layout/_sidebar-right.scss */
-.ds p > muted {
-  font-size: 9px;
-  text-transform: uppercase;
-  font-style: italic;
-  color: #666666;
-}
-/* line 50, sass/layout/_sidebar-right.scss */
-.ds a {
-  color: #68dff0;
-}
+  padding-top: 20px; }
+  .ds h4 {
+    font-size: 14px;
+    font-weight: 700; }
+  .ds h3 {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0 10px;
+    line-height: 60px;
+    height: 60px;
+    margin: 0;
+    background: #ff865c;
+    text-align: center; }
+  .ds i {
+    font-size: 12px;
+    line-height: 16px; }
+  .ds .desc {
+    border-bottom: 1px solid #eaeaea;
+    display: inline-block;
+    padding: 15px 0;
+    width: 100%; }
+    .ds .desc:hover {
+      background: #f2f2f2; }
+  .ds .thumb {
+    width: 30px;
+    margin: 0 10px 0 20px;
+    display: block;
+    float: left; }
+  .ds .details {
+    width: 170px;
+    float: left; }
+  .ds > .desc p {
+    font-size: 11px; }
+  .ds p > muted {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #666666; }
+  .ds a {
+    color: #68dff0; }
 
 /*White Panel */
-/* line 5, sass/components/_button.scss */
 .white-panel {
   text-align: center;
   background: #ffffff;
-  color: #ccd1d9;
-}
+  color: #ccd1d9; }
 
-/* line 10, sass/components/_button.scss */
 .white-panel p {
   margin-top: 5px;
   font-weight: 700;
-  margin-left: 15px;
-}
+  margin-left: 15px; }
 
-/* line 15, sass/components/_button.scss */
 .white-panel .white-header {
   background: #f4f4f4;
   padding: 3px;
   margin-bottom: 15px;
-  color: #c6c6c6;
-}
+  color: #c6c6c6; }
 
-/* line 21, sass/components/_button.scss */
 .white-panel .small {
   font-size: 10px;
-  color: #ccd1d9;
-}
+  color: #ccd1d9; }
 
-/* line 25, sass/components/_button.scss */
 .white-panel i {
   color: #68dff0;
   padding-right: 4px;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
-/* line 4, sass/components/_panel.scss */
 .pn {
   height: 250px;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); }
 
-/* line 8, sass/components/_panel.scss */
 .pn:hover {
-  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
-}
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3); }
 
 /*Grey Panel*/
-/* line 12, sass/components/_panel.scss */
 .grey-panel {
   text-align: center;
-  background: #dfdfe1;
-}
+  background: #dfdfe1; }
 
-/* line 16, sass/components/_panel.scss */
 .grey-panel .grey-header {
   background: #ccd1d9;
   padding: 3px;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
-/* line 21, sass/components/_panel.scss */
 .grey-panel h5 {
   font-weight: 200;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
-/* line 25, sass/components/_panel.scss */
 .grey-panel p {
-  margin-left: 5px;
-}
+  margin-left: 5px; }
 
 /* Specific Conf for Donut Charts*/
-/* line 29, sass/components/_panel.scss */
 .donut-chart p {
   margin-top: 5px;
   font-weight: 700;
-  margin-left: 15px;
-}
+  margin-left: 15px; }
 
-/* line 34, sass/components/_panel.scss */
 .donut-chart h2 {
   font-weight: 900;
   color: #FF6B6B;
-  font-size: 38px;
-}
+  font-size: 38px; }
 
 /* Dark Blue*/
-/* line 40, sass/components/_panel.scss */
 .darkblue-panel {
   text-align: center;
-  background: #444c57;
-}
+  background: #444c57; }
 
-/* line 44, sass/components/_panel.scss */
 .darkblue-panel .darkblue-header {
   background: transparent;
   padding: 3px;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
-/* line 49, sass/components/_panel.scss */
 .darkblue-panel h1 {
-  color: #f2f2f2;
-}
+  color: #f2f2f2; }
 
-/* line 52, sass/components/_panel.scss */
 .darkblue-panel h5 {
   font-weight: 200;
   margin-top: 10px;
-  color: white;
-}
+  color: white; }
 
-/* line 57, sass/components/_panel.scss */
 .darkblue-panel footer {
-  color: white;
-}
+  color: white; }
 
-/* line 60, sass/components/_panel.scss */
 .darkblue-panel footer h5 {
   margin-left: 10px;
   margin-right: 10px;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /*Green Panel*/
-/* line 66, sass/components/_panel.scss */
 .green-panel {
   text-align: center;
-  background: #68dff0;
-}
+  background: #68dff0; }
 
-/* line 70, sass/components/_panel.scss */
 .green-panel .green-header {
   background: #43b1a9;
   padding: 3px;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
-/* line 75, sass/components/_panel.scss */
 .green-panel h5 {
   color: white;
   font-weight: 200;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
-/* line 80, sass/components/_panel.scss */
 .green-panel h3 {
   color: white;
-  font-weight: 100;
-}
+  font-weight: 100; }
 
-/* line 84, sass/components/_panel.scss */
 .green-panel p {
-  color: white;
-}
+  color: white; }
 
-/* line 87, sass/components/_panel.scss */
 .white-panel {
   text-align: center;
   background: #ffffff;
-  color: #ccd1d9;
-}
+  color: #ccd1d9; }
 
-/* line 92, sass/components/_panel.scss */
 .white-panel p {
   margin-top: 5px;
   font-weight: 700;
-  margin-left: 15px;
-}
+  margin-left: 15px; }
 
-/* line 97, sass/components/_panel.scss */
 .white-panel .white-header {
   background: #f4f4f4;
   padding: 3px;
   margin-bottom: 15px;
-  color: #c6c6c6;
-}
+  color: #c6c6c6; }
 
-/* line 103, sass/components/_panel.scss */
 .white-panel .small {
   font-size: 10px;
-  color: #ccd1d9;
-}
+  color: #ccd1d9; }
 
-/* line 107, sass/components/_panel.scss */
 .white-panel i {
   color: #68dff0;
   padding-right: 4px;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
-/* line 1, sass/components/_box.scss */
 .mtbox {
   margin-top: 80px;
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
-/* line 5, sass/components/_box.scss */
 .box1 {
   padding: 15px;
   text-align: center;
   color: #989898;
-  border-bottom: 1px solid #989898;
-}
+  border-bottom: 1px solid #989898; }
 
-/* line 11, sass/components/_box.scss */
 .box1 span {
-  font-size: 50px;
-}
+  font-size: 50px; }
 
-/* line 14, sass/components/_box.scss */
 .box1 h3 {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 17, sass/components/_box.scss */
 .box0:hover .box1 {
-  border-bottom: 1px solid #ffffff;
-}
+  border-bottom: 1px solid #ffffff; }
 
-/* line 20, sass/components/_box.scss */
 .box0 p {
   text-align: center;
   font-size: 12px;
-  color: #f2f2f2;
-}
+  color: #f2f2f2; }
 
-/* line 25, sass/components/_box.scss */
 .box0:hover p {
-  color: #ff865c;
-}
+  color: #ff865c; }
 
-/* line 28, sass/components/_box.scss */
 .box0:hover {
   background: #ffffff;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); }
 
 /* MAIN CHART CONFIGURATION */
-/* line 2, sass/components/_chart.scss */
 .main-chart {
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
-/* line 5, sass/components/_chart.scss */
 .border-head h3 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1476,19 +1100,15 @@ ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i, ul.sidebar-menu li a
   display: inline-block;
   width: 100%;
   font-weight: 700;
-  color: #989898;
-}
+  color: #989898; }
 
-/* line 17, sass/components/_chart.scss */
 .custom-bar-chart {
   height: 290px;
   margin-top: 20px;
   margin-left: 20px;
   position: relative;
-  border-bottom: 1px solid #c9cdd7;
-}
+  border-bottom: 1px solid #c9cdd7; }
 
-/* line 24, sass/components/_chart.scss */
 .custom-bar-chart .bar {
   height: 100%;
   position: relative;
@@ -1496,141 +1116,124 @@ ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i, ul.sidebar-menu li a
   margin: 0px 4%;
   float: left;
   text-align: center;
-  z-index: 10;
-}
+  z-index: 10; }
 
-/* line 33, sass/components/_chart.scss */
 .custom-bar-chart .bar .title {
   position: absolute;
   bottom: -30px;
   width: 100%;
   text-align: center;
-  font-size: 11px;
-}
+  font-size: 11px; }
 
-/* line 40, sass/components/_chart.scss */
 .custom-bar-chart .bar .value {
   position: absolute;
   bottom: 0;
   background: #ff865c;
   color: #68dff0;
   width: 100%;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
   -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  transition: all .3s ease;
-}
+  transition: all .3s ease; }
 
-/* line 55, sass/components/_chart.scss */
 .custom-bar-chart .bar .value:hover {
   background: #2f2f2f;
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 59, sass/components/_chart.scss */
 .y-axis {
   color: #555555;
   position: absolute;
   text-align: left;
   width: 100%;
-  font-size: 11px;
-}
+  font-size: 11px; }
 
-/* line 66, sass/components/_chart.scss */
 .y-axis li {
   border-top: 1px dashed #dbdce0;
   display: block;
   height: 58px;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 72, sass/components/_chart.scss */
 .y-axis li:last-child {
-  border-top: none;
-}
+  border-top: none; }
 
-/* line 75, sass/components/_chart.scss */
 .y-axis li span {
   display: block;
   margin: -10px 0 0 -60px;
   padding: 0 10px;
-  width: 40px;
-}
+  width: 40px; }
 
 /*Donut Chart Main Page Conf*/
-/* line 82, sass/components/_chart.scss */
 .donut-main {
   display: block;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 86, sass/components/_chart.scss */
 .donut-main h4 {
   font-weight: 700;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 /*--sidebar toggle---*/
-/* line 2, sass/components/_sidebar_toggle.scss */
 .sidebar-toggle-box {
   float: left;
   padding-right: 15px;
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
-/* line 7, sass/components/_sidebar_toggle.scss */
 .sidebar-toggle-box .fa-bars {
   cursor: pointer;
   display: inline-block;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
-/* line 12, sass/components/_sidebar_toggle.scss */
 .sidebar-closed > #sidebar > ul {
-  display: none;
-}
+  display: none; }
 
-/* line 15, sass/components/_sidebar_toggle.scss */
 .sidebar-closed #main-content {
-  margin-left: 0px;
-}
+  margin-left: 0px; }
 
-/* line 18, sass/components/_sidebar_toggle.scss */
 .sidebar-closed #sidebar {
-  margin-left: -180px;
-}
+  margin-left: -180px; }
+
+/* showcase background */
+.showback {
+  background: red;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0px 3px 2px #aab2bd; }
+
+/*badge*/
+.badge.bg-primary {
+  background: #8075c4; }
+
+.badge.bg-success {
+  background: #a9d86e; }
+
+.badge.bg-warning {
+  background: #FCB322; }
+
+.badge.bg-important {
+  background: #ff6c60; }
+
+.badge.bg-info {
+  background: #41cac0; }
+
+.badge.bg-inverse {
+  background: #2A3542; }
 
 /* MAIN CONTENT CONFIGURATION */
-/* line 2, sass/pages/_dashboard.scss */
 #main-content {
-  margin-left: 210px;
-}
+  margin-left: 210px; }
 
-/* line 5, sass/pages/_dashboard.scss */
 .header, .footer {
   min-height: 60px;
-  padding: 0 15px;
-}
+  padding: 0 15px; }
 
-/* line 9, sass/pages/_dashboard.scss */
 .header {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 1002;
-}
+  z-index: 1002; }
 
-/* line 15, sass/pages/_dashboard.scss */
 .black-bg {
   background: #ffd777;
-  border-bottom: 1px solid #c9aa5f;
-}
+  border-bottom: 1px solid #c9aa5f; }
 
-/* line 19, sass/pages/_dashboard.scss */
 .wrapper {
   display: inline-block;
   margin-top: 60px;
@@ -1638,56 +1241,40 @@ ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i, ul.sidebar-menu li a
   padding-right: 15px;
   padding-bottom: 15px;
   padding-top: 0px;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 28, sass/pages/_dashboard.scss */
 a.logo {
   font-size: 20px;
   color: #ffffff;
   float: left;
   margin-top: 15px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 35, sass/pages/_dashboard.scss */
 a.logo b {
-  font-weight: 900;
-}
+  font-weight: 900; }
 
-/* line 38, sass/pages/_dashboard.scss */
 a.logo:hover, a.logo:focus {
   text-decoration: none;
-  outline: none;
-}
+  outline: none; }
 
-/* line 42, sass/pages/_dashboard.scss */
 a.logo span {
-  color: #68dff0;
-}
+  color: #68dff0; }
 
 /*notification*/
-/* line 46, sass/pages/_dashboard.scss */
 #top_menu .nav > li, ul.top-menu > li {
-  float: left;
-}
+  float: left; }
 
-/* line 49, sass/pages/_dashboard.scss */
 .notify-row {
   float: left;
   margin-top: 15px;
-  margin-left: 92px;
-}
+  margin-left: 92px; }
 
-/* line 54, sass/pages/_dashboard.scss */
 .notify-row .notification span.label {
   display: inline-block;
   height: 18px;
   width: 20px;
-  padding: 5px;
-}
+  padding: 5px; }
 
-/* line 60, sass/pages/_dashboard.scss */
 ul.top-menu > li > a {
   color: #666666;
   font-size: 16px;
@@ -1695,10 +1282,8 @@ ul.top-menu > li > a {
   -webkit-border-radius: 4px;
   border: 1px solid #666666 !important;
   padding: 2px 6px;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
-/* line 69, sass/pages/_dashboard.scss */
 ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   border: 1px solid #b6b6b6 !important;
   background-color: transparent !important;
@@ -1706,18 +1291,14 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   text-decoration: none;
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  color: #b6b6b6 !important;
-}
+  color: #b6b6b6 !important; }
 
-/* line 78, sass/pages/_dashboard.scss */
 .notify-row .badge {
   position: absolute;
   right: -10px;
   top: -10px;
-  z-index: 100;
-}
+  z-index: 100; }
 
-/* line 84, sass/pages/_dashboard.scss */
 .dropdown-menu.extended {
   max-width: 300px !important;
   min-width: 160px !important;
@@ -1727,242 +1308,170 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.176) !important;
   border: none !important;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-}
+  -webkit-border-radius: 4px; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* Safari and Chrome */
-  /* line 97, sass/pages/_dashboard.scss */
   .dropdown-menu.extended {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176) !important;
-  }
-}
-/* line 99, sass/pages/_dashboard.scss */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176) !important; } }
+
 .dropdown-menu.extended li p {
   background-color: #F1F2F7;
   color: #666666;
   margin: 0;
   padding: 10px;
   border-radius: 4px 4px 0px 0px;
-  -webkit-border-radius: 4px 4px 0px 0px;
-}
+  -webkit-border-radius: 4px 4px 0px 0px; }
 
-/* line 107, sass/pages/_dashboard.scss */
 .dropdown-menu.extended li p.green {
   background-color: #68dff0;
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 111, sass/pages/_dashboard.scss */
 .dropdown-menu.extended li p.yellow {
   background-color: #fcb322;
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 115, sass/pages/_dashboard.scss */
 .dropdown-menu.extended li a {
   border-bottom: 1px solid #EBEBEB !important;
   font-size: 12px;
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 120, sass/pages/_dashboard.scss */
 .dropdown-menu.extended li a {
   padding: 15px 10px !important;
   width: 100%;
-  display: inline-block;
-}
+  display: inline-block; }
 
-/* line 125, sass/pages/_dashboard.scss */
 .dropdown-menu.extended li a:hover {
   background-color: #F7F8F9 !important;
-  color: #2E2E2E;
-}
+  color: #2E2E2E; }
 
-/* line 129, sass/pages/_dashboard.scss */
 .dropdown-menu.tasks-bar .task-info .desc {
   font-size: 13px;
-  font-weight: normal;
-}
+  font-weight: normal; }
 
-/* line 133, sass/pages/_dashboard.scss */
 .dropdown-menu.tasks-bar .task-info .percent {
   display: inline-block;
   float: right;
   font-size: 13px;
   font-weight: 600;
   padding-left: 10px;
-  margin-top: -4px;
-}
+  margin-top: -4px; }
 
-/* line 141, sass/pages/_dashboard.scss */
 .dropdown-menu.extended .progress {
   margin-bottom: 0 !important;
-  height: 10px;
-}
+  height: 10px; }
 
-/* line 145, sass/pages/_dashboard.scss */
 .dropdown-menu.inbox li a .photo img {
   border-radius: 2px 2px 2px 2px;
   float: left;
   height: 40px;
   margin-right: 4px;
-  width: 40px;
-}
+  width: 40px; }
 
-/* line 152, sass/pages/_dashboard.scss */
 .dropdown-menu.inbox li a .subject {
-  display: block;
-}
+  display: block; }
 
-/* line 155, sass/pages/_dashboard.scss */
 .dropdown-menu.inbox li a .subject .from {
   font-size: 12px;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
-/* line 159, sass/pages/_dashboard.scss */
 .dropdown-menu.inbox li a .subject .time {
   font-size: 11px;
   font-style: italic;
   font-weight: bold;
   position: absolute;
-  right: 5px;
-}
+  right: 5px; }
 
-/* line 166, sass/pages/_dashboard.scss */
 .dropdown-menu.inbox li a .message {
   display: block !important;
-  font-size: 11px;
-}
+  font-size: 11px; }
 
-/* line 170, sass/pages/_dashboard.scss */
 .top-nav {
-  margin-top: 7px;
-}
+  margin-top: 7px; }
 
-/* line 173, sass/pages/_dashboard.scss */
 .top-nav ul.top-menu > li .dropdown-menu.logout {
-  width: 268px !important;
-}
+  width: 268px !important; }
 
-/* line 176, sass/pages/_dashboard.scss */
 .top-nav li.dropdown .dropdown-menu {
   float: right;
   right: 0;
-  left: auto;
-}
+  left: auto; }
 
-/* line 181, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li {
   float: left;
   text-align: center;
-  width: 33.3%;
-}
+  width: 33.3%; }
 
-/* line 186, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li:last-child {
   float: left;
   text-align: center;
   width: 100%;
   background: #a9d96c;
-  border-radius: 0 0 3px 3px;
-}
+  border-radius: 0 0 3px 3px; }
 
-/* line 193, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li:last-child > a, .dropdown-menu.extended.logout > li:last-child > a:hover {
   color: #fff;
   border-bottom: none !important;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 198, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li:last-child > a:hover > i {
-  color: #fff;
-}
+  color: #fff; }
 
-/* line 201, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li > a {
   color: #a4abbb;
-  border-bottom: none !important;
-}
+  border-bottom: none !important; }
 
-/* line 205, sass/pages/_dashboard.scss */
 .full-width .dropdown-menu.extended.logout > li > a:hover {
   background: none !important;
-  color: #50c8ea !important;
-}
+  color: #50c8ea !important; }
 
-/* line 209, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li > a:hover {
-  background: none !important;
-}
+  background: none !important; }
 
-/* line 212, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li > a:hover i {
-  color: #50c8ea;
-}
+  color: #50c8ea; }
 
-/* line 215, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li > a i {
-  font-size: 17px;
-}
+  font-size: 17px; }
 
-/* line 218, sass/pages/_dashboard.scss */
 .dropdown-menu.extended.logout > li > a > i {
-  display: block;
-}
+  display: block; }
 
-/* line 221, sass/pages/_dashboard.scss */
 .top-nav ul.top-menu > li > a {
   border: 1px solid #eeeeee;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   padding: 6px;
   background: none;
-  margin-right: 0;
-}
+  margin-right: 0; }
 
-/* line 229, sass/pages/_dashboard.scss */
 .top-nav ul.top-menu > li {
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
-/* line 232, sass/pages/_dashboard.scss */
 .top-nav ul.top-menu > li > a:hover, .top-nav ul.top-menu > li > a:focus {
   border: 1px solid #F1F2F7;
-  background: #F1F2F7;
-}
+  background: #F1F2F7; }
 
-/* line 236, sass/pages/_dashboard.scss */
 .top-nav .dropdown-menu.extended.logout {
-  top: 50px;
-}
+  top: 50px; }
 
-/* line 239, sass/pages/_dashboard.scss */
 .top-nav .nav .caret {
   border-bottom-color: #A4AABA;
-  border-top-color: #A4AABA;
-}
+  border-top-color: #A4AABA; }
 
-/* line 243, sass/pages/_dashboard.scss */
 .top-nav ul.top-menu > li > a:hover .caret {
   border-bottom-color: #000;
-  border-top-color: #000;
-}
+  border-top-color: #000; }
 
-/* line 247, sass/pages/_dashboard.scss */
 .log-arrow-up {
   background: url("../img/arrow-up.png") no-repeat;
   width: 20px;
   height: 11px;
   position: absolute;
   right: 20px;
-  top: -10px;
-}
+  top: -10px; }
 
 /*----*/
-/* line 256, sass/pages/_dashboard.scss */
 .notify-arrow {
   border-style: solid;
   border-width: 0 9px 9px;
@@ -1972,23 +1481,19 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
   position: absolute;
   left: 7px;
   top: -18px;
+  -webkit-transition: all 0.25s ease 0s;
   transition: all 0.25s ease 0s;
   width: 0;
   z-index: 10;
   margin-top: 10px;
-  opacity: 1;
-}
+  opacity: 1; }
 
-/* line 271, sass/pages/_dashboard.scss */
 .notify-arrow-yellow {
   border-color: transparent transparent #FCB322;
   border-bottom-color: #FCB322 !important;
-  border-top-color: #FCB322 !important;
-}
+  border-top-color: #FCB322 !important; }
 
-/* line 276, sass/pages/_dashboard.scss */
 .notify-arrow-green {
   border-color: transparent transparent #68dff0;
   border-bottom-color: #68dff0 !important;
-  border-top-color: #68dff0 !important;
-}
+  border-top-color: #68dff0 !important; }

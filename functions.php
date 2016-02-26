@@ -20,31 +20,31 @@ function bootwp_scripts(){
     /*add styles*/
     /*Övrig CSS imorteras via style.css*/
     /*Best practice verkade dock vara att köra alla här...*/
-    wp_enqueue_style( 'style', get_template_directory_uri() . './style.css' );
+    wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
 
 
     /*add scripts*/
     /*TODO Fixa conditional_script_loading() */
     /*TODO Kolla vilka script som verkligen är beroende av jquery... */
-    wp_enqueue_script( 'chart', get_template_directory_uri() . './assets/js/chart-master/Chart.js', array('jquery'), true );
-    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . './assets/js/bootstrap.min.js', array('jquery'),"", true );
-    wp_enqueue_script( 'acc', get_template_directory_uri() . './assets/js/jquery.dcjqaccordion.2.7.js', array('jquery'),"", true );
+    wp_enqueue_script( 'chart', get_template_directory_uri() . '/assets/js/chart-master/Chart.js', array('jquery'), true );
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array('jquery'),"", true );
+    wp_enqueue_script( 'acc', get_template_directory_uri() . '/assets/js/jquery.dcjqaccordion.2.7.js', array('jquery'),"", true );
 
-    wp_enqueue_script( 'tomin', get_template_directory_uri() . './assets/js/jquery.scrollTo.min.js', array('jquery'),"", true );
-    wp_enqueue_script( 'nice', get_template_directory_uri() . './assets/js/jquery.nicescroll.js', array('jquery'),"", true );
-    wp_enqueue_script( 'saprk', get_template_directory_uri() . './assets/js/jquery.sparkline.js', array('jquery'),"", true );
+    wp_enqueue_script( 'tomin', get_template_directory_uri() . '/assets/js/jquery.scrollTo.min.js', array('jquery'),"", true );
+    wp_enqueue_script( 'nice', get_template_directory_uri() . '/assets/js/jquery.nicescroll.js', array('jquery'),"", true );
+    wp_enqueue_script( 'saprk', get_template_directory_uri() . '/assets/js/jquery.sparkline.js', array('jquery'),"", true );
 
-    wp_enqueue_script( 'common-scripts', get_template_directory_uri() . './assets/js/common-scripts.js', array('jquery'),"", true );
-    wp_enqueue_script( 'gritter-js', get_template_directory_uri() . './assets/js/gritter/js/jquery.gritter.js', array('jquery'),"", true );
-    wp_enqueue_script( 'gritter-conf', get_template_directory_uri() . './assets/js/gritter-conf.js', array('jquery'),"", true );
+    wp_enqueue_script( 'common-scripts', get_template_directory_uri() . '/assets/js/common-scripts.js', array('jquery'),"", true );
+    wp_enqueue_script( 'gritter-js', get_template_directory_uri() . '/assets/js/gritter/js/jquery.gritter.js', array('jquery'),"", true );
+    wp_enqueue_script( 'gritter-conf', get_template_directory_uri() . '/assets/js/gritter-conf.js', array('jquery'),"", true );
 
 
 
-    wp_enqueue_script( 'saprk-chart', get_template_directory_uri() . './assets/js/sparkline-chart.js', array('jquery'),"", true );
-    wp_enqueue_script( 'zabuto', get_template_directory_uri() . './assets/js/zabuto_calendar.js', array('jquery'),"", true );
+    wp_enqueue_script( 'saprk-chart', get_template_directory_uri() . '/assets/js/sparkline-chart.js', array('jquery'),"", true );
+    wp_enqueue_script( 'zabuto', get_template_directory_uri() . '/assets/js/zabuto_calendar.js', array('jquery'),"", true );
 
-    wp_enqueue_script( 'chartjs', get_template_directory_uri() . './assets/js/chartjs-conf.js', array('jquery'),"", true );
-    wp_enqueue_script( 'morris', get_template_directory_uri() . './assets/js/morris-conf.js', array('jquery'),"", true );
+    wp_enqueue_script( 'chartjs', get_template_directory_uri() . '/assets/js/chartjs-conf.js', array('jquery'),"", true );
+    wp_enqueue_script( 'morris', get_template_directory_uri() . '/assets/js/morris-conf.js', array('jquery'),"", true );
 
 
 }
@@ -68,6 +68,10 @@ function create_widget($name, $id, $description){
 create_widget('Dashboard Top Left', 'dashboard-top-left', 'Display on the top left of dashboard');
 create_widget('Dashboard Top Center', 'dashboard-top-center', 'Display on the top center of dashboard');
 create_widget('Dashboard Top Right', 'dashboard-top-right', 'Display on the top right of dashboard');
+
+
+
+
 
 
 // IMPORTERA
